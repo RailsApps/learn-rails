@@ -71,6 +71,8 @@ GEM
     multi_json (1.7.7)
     multi_xml (0.5.4)
     polyglot (0.3.3)
+    quiet_assets (1.0.2)
+      railties (>= 3.1, < 5.0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -131,6 +133,7 @@ DEPENDENCIES
   high_voltage
   jbuilder (~> 1.0.1)
   jquery-rails
+  quiet_assets
   rails (= 4.0.0.rc2)
   sass-rails (~> 4.0.0.rc2)
   simple_form
