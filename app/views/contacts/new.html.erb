@@ -1,0 +1,9 @@
+<% content_for :title do %>Contact<% end %>
+<h3>Contact</h3>
+  <%= simple_form_for @contact do |form| %>
+  <%= form.error_notification %>
+  <%= form.input :name, autofocus: true %>
+  <%= form.input :email %>
+  <%= form.input :content, as: :text, :input_html => { :class => "span6" } %>
+  <%= form.button :submit, 'Submit', class: 'btn-primary' %>
+<% end %>
