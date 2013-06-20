@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Website Contact</h1>
+    <p>
+      This visitor requested contact:
+    </p>
+    <p>
+      <%= @contact.name %><br/>
+      <%= @contact.email %><br/>
+    </p>
+    <p>
+      The visitor said:
+    </p>
+    <p>
+      "<%= @contact.content %>"
+    </p>
+  </body>
+</html>
