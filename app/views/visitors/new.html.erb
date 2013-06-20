@@ -1,4 +1,18 @@
-<h3>Home</h3>
-<p>Welcome to the home of <%= @owner.name %>.</p>
-<p>I was born on <%= @owner.birthdate %>.</p>
-<p>Only <%= @owner.countdown %> days until my birthday!</p>
+<% content_for :title do %>Foobar Kadigan<% end %>
+<% content_for :description do %>Website of Foobar Kadigan<% end %>
+<img src="http://lorempixel.com/1170/600/cats/1">
+<div style="text-align: center; margin-top: 20px">
+  <div class="span4 offset2">
+    <h2>Stay in touch.</h2>
+  </div>
+  <div class="span4">
+    <div>
+      <%= simple_form_for @visitor do |f| %>
+        <%= f.error_notification %>
+        <%= f.input :email, label: false, :placeholder => 'Your email address...' %>
+        <br/>
+        <%= f.submit "Sign up for the newsletter", :class => "btn btn-primary"%>
+      <% end %>
+    </div>
+  </div>
+</div>
