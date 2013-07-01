@@ -64,7 +64,7 @@ The application includes a form that allows website visitors to "opt-in" to a ma
 
 With MailChimp, you can send a welcome message automatically when the visitor signs up for the mailing list. It’s a bit difficult to find the MailChimp option to create a welcome message. Strangely, MailChimp considers a welcome message a "form." Here's how to find it. On the MailChimp "Lists" page, click the "down arrow" for a menu and click "Signup forms." Then click "Link to a form." On the "Create Forms" page, there is a dropdown list of "Forms & Response Emails." The gray box shows "Signup form." Click the down arrow. Select the menu item named "Final 'Welcome' Email" and you'll be able to create a welcome message.
 
-We provide instructions to deploy the tutorial application to "Heroku":https://www.heroku.com/ which provides Rails application hosting. It costs nothing to set up a Heroku account and deploy as many applications as you want. To deploy an app to Heroku, you must have a Heroku account. Visit "https://id.heroku.com/signup/devcenter":https://id.heroku.com/signup/devcenter to set up an account.
+We provide instructions to deploy the tutorial application to "Heroku":https://www.heroku.com/ which provides Rails application hosting. It costs nothing to set up a Heroku account and deploy as many applications as you want. To deploy an app to Heroku, you must have a Heroku account. Visit Heroku "to set up an account":https://id.heroku.com/signup/devcenter.
 
 h2. Dependencies
 
@@ -265,35 +265,19 @@ All configuration values in the *config/application.yml* file are available anyw
 
 If you prefer, you can delete the *config/application.yml* file and set each value as an environment variable in the Unix shell.
 
-h3. Change your Application's Secret Token
-
-If you've used the Rails Composer tool to generate the application, the application's secret token will be unique, just as with any Rails application generated with the @rails new@ command.
-
-However, if you've cloned the application directly from GitHub, it is crucial that you change the application's secret token before deploying your application in production mode. Otherwise, people could change their session information, and potentially access your site without permission. Your secret token should be at least 30 characters long and completely random.
-
-Get a unique secret token:
-
-<pre>
-rake secret
-</pre>
-
-Edit your *config/initializers/secret_token.rb* file to add the secret token:
-
-<pre>
-LearnRails::Application.config.secret_key_base = '...some really long, random string...'
-</pre>
-
 h2. Test the App
 
 You can check that your application runs properly by entering the command:
 
-@$ rails server@
-
-!http://railsapps.github.io/images/learn-rails.png(Learn Rails)!
+<pre>
+$ rails server
+</pre>
 
 To see your application in action, open a browser window and navigate to "http://localhost:3000/":http://localhost:3000.
 
 You should see a home page with a placeholder photo and the "sign up" form.
+
+!http://railsapps.github.io/images/learn-rails.png(Learn Rails)!
 
 Enter your email address and click the "sign up" button. You should see the page redisplay with an acknowledgment message. Try entering an invalid email address such as "me@foo@", or click the submit button without entering an email address, and you should see an error message. You'll have to "log in to MailChimp":https://admin.mailchimp.com/ and check your mailing list to see if the new email address was added successfully.
 
