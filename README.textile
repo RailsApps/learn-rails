@@ -119,8 +119,9 @@ question  Install an example application for Rails 4.0?
 Enter "1" to select *Build a RailsApps starter application*. You'll see a prompt:
 
 <pre>
-question  One starter app is available for Rails 4.0. More to come.
+question  Starter apps for Rails 4.0. More to come.
       1)  learn-rails
+      2)  rails-bootstrap
 </pre>
 
 Choose *learn-rails*. The Rails Composer tool may give you other options (other applications may have been added since these notes were written).
