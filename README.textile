@@ -25,10 +25,10 @@ h2. What Is Implemented -- and What Is Not
 The example application is more than a learning exercise. The application can be used to build a typical simple website. It shows the simplest approach to implementing a basic website, using practices recommended by experienced Rails developers. With knowledge of Rails, the website can be adapted and customized to your needs. Features include:
 
 * Home page
+* Navigation bar
 * "About" page
 * Contact page with "contact request" form
 * Google spreadsheet datastore
-* Navigation bar
 * Mailing list sign-up form
 
 h4. Additional Pages
@@ -41,15 +41,19 @@ For example, using the high_voltage gem, you could add pages for:
 * News
 * Legal disclaimers
 
-h4. Contact Form
-
-The Contact page includes a "contact request" form. The contact form can be adapted for other purposes, such as an appointment request.
-
-When the visitor submits the form, data is saved to a spreadsheet on Google Drive that the site owner can access for review and analysis. An email message goes to the site owner containing the contents of the form.
-
 h4. Mailing List Opt-In
 
 The application home page contains a form that encourages a visitor to enter an email address to sign up for a mailing list. It can be used to collect email addresses for a newsletter or announcement mailings. The tutorial shows how to set up a MailChimp account and use the MailChimp API to add email addresses to a MailChimp list.
+
+h4. Contact Form
+
+The Contact page includes a "contact request" form. The contact form can be adapted for other purposes, such as an appointment request, or customized as a survey form.
+
+When the visitor submits the form, data is saved to a spreadsheet on Google Drive that the site owner can access for review and analysis. An email message goes to the site owner containing the contents of the form.
+
+h4. Google Spreadsheet Datastore
+
+Google Drive (formerly known as Google Docs) provides an easy way to store and access form data using a spreadsheet. Because Google Drive manages access to the spreadsheet, authentication and authorization are not needed in the application.
 
 h4. No Database
 
