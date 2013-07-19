@@ -11,6 +11,7 @@ gem 'activerecord-tableless'
 gem 'bootstrap-sass'
 gem 'figaro'
 gem 'gibbon'
+gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form', '>= 3.0.0.rc'
 group :development do
