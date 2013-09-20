@@ -8,7 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'activerecord-tableless'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 2.3.2.2'
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
@@ -18,6 +18,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
   gem 'quiet_assets'
+  gem 'rails_layout'
   gem 'sqlite3'
 end
 group :production do
