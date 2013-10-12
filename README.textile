@@ -10,19 +10,17 @@ h2. !http://twitter-badges.s3.amazonaws.com/t_logo-a.png(Follow on Twitter)!:htt
 
 Follow the project on Twitter: "@rails_apps":http://twitter.com/rails_apps. Please tweet some praise if you like what you've found.
 
-h2. Tutorial
+h2. Learn Ruby on Rails
 
-!http://railsapps.github.io/images/learn-rails-book.png(Learn Rails)!
+h3. !http://railsapps.github.io/images/learn-rails-cover-130x161.jpg(Learn Ruby on Rails)!:http://learn-rails.com/learn-ruby-on-rails.html Get the Book
 
-The book is available on the website:
+This example application is fully documented in the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html.
 
-h4. "learn-rails.com":http://learn-rails.com/
+With the book, a complete beginner can create this application without any additional knowledge. The book explains all the code, introducing basic concepts of Rails application development and professional practices.
 
-The tutorial documents each step to follow to create the application. Every step is documented concisely, so a complete beginner can create this application without any additional knowledge.
+h2. A Practical Application
 
-h2. What Is Implemented -- and What Is Not
-
-The example application is more than a learning exercise. The application can be used to build a typical simple website. It shows the simplest approach to implementing a basic website, using practices recommended by experienced Rails developers. With knowledge of Rails, the website can be adapted and customized to your needs. Features include:
+The example application is more than a learning exercise. The tutorial shows how to build a basic website, using practices recommended by experienced Rails developers. You'll build a real-world Rails application that can be used by a typical small business. With knowledge of Rails, the website can be adapted and customized to your needs. Features include:
 
 * Home page
 * Navigation bar
@@ -222,6 +220,7 @@ These gems make development easier:
 
 * "better_errors":https://github.com/charliesome/better_errors - helps when things go wrong
 * "quiet_assets":https://github.com/evrone/quiet_assets - suppresses distracting messages in the log
+* "rails_layout":https://github.com/RailsApps/rails_layout - generates files for an application layout
 
 h3. Install the Required Gems
 
@@ -288,7 +287,7 @@ You should see a home page with a placeholder photo and the "sign up" form.
 
 !http://railsapps.github.io/images/learn-rails.png(Learn Rails)!
 
-Enter your email address and click the "sign up" button. You should see the page redisplay with an acknowledgment message. Try entering an invalid email address such as "me@foo@", or click the submit button without entering an email address, and you should see an error message. You'll have to "log in to MailChimp":https://admin.mailchimp.com/ and check your mailing list to see if the new email address was added successfully.
+Enter your email address and click the "sign up" button. You should see the page redisplay with an acknowledgment message. Try entering an invalid email address such as "me@foo", or click the submit button without entering an email address, and you should see an error message. You'll have to "log in to MailChimp":https://admin.mailchimp.com/ and check your mailing list to see if the new email address was added successfully.
 
 You should be able to click the navigation links for "About" or "Contact" and see those pages.
 
