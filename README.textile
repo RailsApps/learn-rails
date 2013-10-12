@@ -1,6 +1,6 @@
 h1. !http://railsapps.github.io/images/rails-36x36.jpg(Learn Rails)! Learn Rails
 
-A Rails 4.0 example application to accompany the book "Learn Rails":http://learn-rails.com/.
+A Rails 4.0 example application to accompany the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html.
 
 The book introduces basic concepts of Rails development by showing the reader how to build an application that can be used for a typical small business website. The application includes a home page, "about" page, contact form, and option to sign up for a mailing list.
 
