@@ -207,12 +207,16 @@ h3. Gems
 Here are the gems used by the application:
 
 * "activerecord-tableless":https://github.com/softace/activerecord-tableless - helps to use Rails without a database
-* "bootstrap-sass":https://github.com/thomas-mcdonald/bootstrap-sass - Twitter Bootstrap for CSS and JavaScript
 * "figaro":https://github.com/laserlemon/figaro - configuration framework
 * "gibbon":https://github.com/amro/gibbon - access to the MailChimp API
 * "google_drive":https://github.com/gimite/google-drive-ruby - use Google Drive spreadsheets for data storage
 * "high_voltage":https://github.com/thoughtbot/high_voltage - for static pages like "about"
 * "simple_form":http://simple-form.plataformatec.com.br/ - forms made easy
+
+Use these gems for the Zurb Foundation front-end framework:
+
+* "compass-rails":https://github.com/Compass/compass-rails - support for Zurb Foundation
+* "zurb-foundation":https://github.com/zurb/foundation - front-end framework
 
 These gems make development easier:
 
@@ -336,7 +340,7 @@ Problems? Check the "issues":https://github.com/RailsApps/learn-rails/issues.
 
 h2. Documentation
 
-The "Learn Rails":http://learn-rails.com/ book provides additional documentation.
+The book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html provides additional documentation.
 
 h2. Issues
 
