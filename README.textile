@@ -106,6 +106,8 @@ $ rails new learn-rails -m https://raw.github.com/RailsApps/rails-composer/maste
 
 The @$@ character indicates a shell prompt; don't include it when you run the command.
 
+The @-m@ option loads an application template that is hosted on GitHub.
+
 This creates a new Rails app named @learn-rails@ on your computer. You can use a different name if you wish.
 
 You'll see a prompt:

@@ -19,7 +19,7 @@ class Contact < ActiveRecord::Base
     end
     ws = ss.worksheets[0]
     last_row = 1 + ws.num_rows
-    ws[last_row, 1] = Time.now
+    ws[last_row, 1] = Time.new
     ws[last_row, 2] = self.name
     ws[last_row, 3] = self.email
     ws[last_row, 4] = self.content
