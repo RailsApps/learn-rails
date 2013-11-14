@@ -1,20 +1,20 @@
 <% content_for :title do %>Foobar Kadigan<% end %>
 <% content_for :description do %>Website of Foobar Kadigan<% end %>
-<img src="http://lorempixel.com/1170/600/cats/1">
-<div style="text-align: center; margin-top: 20px">
-  <div class="row">
-    <div class="large-6 columns">
-      <h2>Stay in touch.</h2>
-    </div>
-    <div class="large-6 columns">
-      <div class="large-6">
-        <%= simple_form_for @visitor do |f| %>
-          <%= f.error_notification %>
-          <%= f.input :email, label: false, :placeholder => 'Your email address...' %>
-          <br/>
-          <%= f.submit "Sign up for the newsletter", :class => "button radius" %>
-        <% end %>
-      </div>
+<section>
+  <img src="http://lorempixel.com/1170/600/cats/1">
+</section>
+<section>
+  <div class="column">
+    <h2>Stay in touch.</h2>
+  </div>
+  <div class="column">
+    <div class="form-centered">
+      <%= simple_form_for @visitor do |f| %>
+        <%= f.error_notification %>
+        <%= f.input :email, label: false, :placeholder => 'Your email address...' %>
+        <br/>
+        <%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
+      <% end %>
     </div>
   </div>
-</div>
+</section>
