@@ -1,0 +1,5 @@
+h1. CHANGELOG
+
+h3. 0.1.1 December 5, 2013 (book version 1.b17)
+
+* fix tracking in segmentio.js (issue #2)
