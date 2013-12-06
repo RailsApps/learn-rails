@@ -53,7 +53,7 @@ window.analytics.page();
 
 // accommodate Turbolinks
 // track page views and form submissions
-$(document).on('ready page:load', function() {
+$(document).on('ready page:change', function() {
   console.log('page loaded');
   analytics.page();
   analytics.trackForm($('#new_visitor'), 'Signed Up');
