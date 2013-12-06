@@ -50,6 +50,9 @@ window.analytics.load('cw3dal6k42');
 // Make our first page call to load the integrations. If you'd like to manually
 // name or tag the page, edit or move this call to use your own tags.
 window.analytics.page();
+
+// accommodate Turbolinks
+// track page views and form submissions
 $(document).on('ready page:load', function() {
   console.log('page loaded');
   analytics.page();
