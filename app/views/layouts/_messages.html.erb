@@ -1,4 +1,4 @@
-<%# Rails flash messages styled for Zurb Foundation 4 %>
+<%# Rails flash messages styled for Zurb Foundation %>
 <% flash.each do |name, msg| %>
   <% if msg.is_a?(String) %>
     <div data-alert class="alert-box round <%= name == :notice ? "success" : "alert" %>">

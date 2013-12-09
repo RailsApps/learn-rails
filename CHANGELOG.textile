@@ -1,5 +1,10 @@
 h1. CHANGELOG
 
+h3. 0.1.2 December 8, 2013 (book version 1.b17)
+
+* update to Rails 4.0.2
+* use Foundation 4 pending resolution of issue #10
+
 h3. 0.1.1 December 5, 2013 (book version 1.b17)
 
 * fix tracking in segmentio.js (issue #2)

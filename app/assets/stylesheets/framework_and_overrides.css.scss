@@ -3,41 +3,46 @@
 
 // override for the 'Home' navigation link
 .top-bar .name {
-  font-size: 0.8125em;
+  font-size: rem-calc(13);
   line-height: 45px; }
 .top-bar .name a {
-  font-weight: bold;
+  font-weight: normal;
   color: white;
   padding: 0 15px; }
 
-// use mixins to create semantic classes
-@mixin large12-columns {
-  @extend .large-12;
+// THESE ARE EXAMPLES YOU CAN MODIFY
+// create mixins using Foundation classes
+@mixin twelve-columns {
+  @extend .small-12;
   @extend .columns;
   }
-@mixin large6-columns-centered {
-  @extend .large-6;
+@mixin six-columns-centered {
+  @extend .small-6;
   @extend .columns;
   @extend .text-center;
   }
-main {
-  @include large12-columns;
-  background-color: #eee;
-  }
-section {
-  @extend .row;
-  margin-top: 20px;
-  }
+// create your own classes
+// to make views framework-neutral
 .column {
-  @include large6-columns-centered;
+  @include six-columns-centered;
   }
 .form {
   @include grid-column(6);
   }
 .form-centered {
-  @include large6-columns-centered;
+  @include six-columns-centered;
   }
 .submit {
   @extend .button;
   @extend .radius;
+  }
+// apply styles to HTML elements
+// to make views framework-neutral
+main {
+  @include twelve-columns;
+  background-color: #eee;
+  }
+section {
+  @extend .row;
+  margin-top: 20px;
   }
