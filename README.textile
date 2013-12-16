@@ -8,11 +8,18 @@ You can build this application in only a few minutes using the "Rails Composer":
 
 h2. Learn Ruby on Rails
 
-h3. !http://railsapps.github.io/images/learn-rails-cover-130x161.jpg(Learn Ruby on Rails)!:http://learn-rails.com/learn-ruby-on-rails.html Get the Book
+h3. !http://railsapps.github.io/images/learn-rails-cover-130x161.jpg(Learn Ruby on Rails)!:http://learn-rails.com/learn-ruby-on-rails.html
 
-This example application is fully documented in the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html.
+This example application is fully documented in the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html. May I suggest, you should "get the book":http://learn-rails.com/learn-ruby-on-rails.html.
 
 With the book, a complete beginner can create this application without any additional knowledge. The book explains all the code, introducing basic concepts of Rails application development and professional practices.
+
+h4. Current Version: 1.b16 or 1.c16
+
+This example application (here on GitHub) is more current than the code in the book. For recent changes, see:
+
+* "CHANGELOG":https://github.com/RailsApps/learn-rails/blob/master/CHANGELOG.textile for a summary
+* "commit log":https://github.com/RailsApps/learn-rails/commits/master for code changes
 
 h2. A Practical Application
 
@@ -149,9 +156,16 @@ The application generator template will ask you for additional preferences:
  question  Continuous testing?
        1)  None
        2)  Guard
+ question  Front-end framework?
+       1)  None
+       2)  Zurb Foundation 5.0
+       3)  Zurb Foundation 4.0
+       4)  Twitter Bootstrap 3.0
+       5)  Twitter Bootstrap 2.3
+       6)  Simple CSS
    extras  Set a robots.txt file to ban spiders? (y/n)
-   extras  Use or create a project-specific rvm gemset? (y/n)
    extras  Create a GitHub repository? (y/n)
+   extras  Use or create a project-specific rvm gemset? (y/n)
 </pre>
 
 h4. Web Servers
@@ -164,15 +178,21 @@ h4. Template Engine
 
 The example application uses the default "ERB" Rails template engine. Optionally, you can use another template engine, such as Haml or Slim. See instructions for "Haml and Rails":http://railsapps.github.io/rails-haml.html.
 
-h4. Other Choices
+h4. Continuous Testing
 
 You won't need "continuous testing" if you are a beginner. Select "none."
 
+h4. Front-end Framework
+
+To duplicate the example code from the book, choose "Zurb Foundation 4.0".
+
+h4. Other Choices
+
 Set a robots.txt file to ban spiders if you want to keep your new site out of Google search results.
 
-It is a good idea to use "RVM":https://rvm.io/, the Ruby Version Manager, and create a project-specific rvm gemset (not available on Windows). See "Installing Rails":http://railsapps.github.io/installing-rails.html.
-
 If you choose to create a GitHub repository, the generator will prompt you for a GitHub username and password.
+
+It is a good idea to use "RVM":https://rvm.io/, the Ruby Version Manager, and create a project-specific rvm gemset (not available on Windows). See "Installing Rails":http://railsapps.github.io/installing-rails.html.
 
 h4. Troubleshooting
 
