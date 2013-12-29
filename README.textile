@@ -14,10 +14,11 @@ This example application is fully documented in the book "Learn Ruby on Rails":h
 
 With the book, a complete beginner can create this application without any additional knowledge. The book explains all the code, introducing basic concepts of Rails application development and professional practices.
 
-h4. Current Version: 1.b16 or 1.c16
+h4. Current Version: 1.17
 
-This example application (here on GitHub) is more current than the code in the book. For recent changes, see:
+This example application (here on GitHub) matches the code in the book. For recent changes, see:
 
+* "blog post":http://blog.railsapps.org/post/70820853368/learn-ruby-on-rails
 * "CHANGELOG":https://github.com/RailsApps/learn-rails/blob/master/CHANGELOG.textile for a summary
 * "commit log":https://github.com/RailsApps/learn-rails/commits/master for code changes
 
