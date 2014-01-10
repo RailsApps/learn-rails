@@ -1,10 +1,15 @@
 h1. CHANGELOG
 
-h3. 0.1.2 December 8, 2013 (book version 1.b17)
+h3. Book version 1.18 (release pending)
+
+* changed commands in version 1.0.1 of the "rails_layout gem":https://github.com/RailsApps/rails_layout
+* change @rails generate layout foundation4 --force@ to  @rails generate layout:install foundation4 --force@
+
+h3. 1.17.2  December 8, 2013 (book version 1.17)
 
 * update to Rails 4.0.2
 * use Foundation 4 pending resolution of issue #10
 
-h3. 0.1.1 December 5, 2013 (book version 1.b17)
+h3. 1.17.1 December 5, 2013 (book version 1.17)
 
 * fix tracking in segmentio.js (issue #2)
