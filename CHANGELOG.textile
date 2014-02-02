@@ -1,5 +1,6 @@
 h1. CHANGELOG
 
+
 h3. 1.19.0 February 1, 2014 (book version 1.19)
 
 * use Foundation 5.0.3
