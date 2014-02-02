@@ -14,12 +14,14 @@ This example application is fully documented in the book "Learn Ruby on Rails":h
 
 With the book, a complete beginner can create this application without any additional knowledge. The book explains all the code, introducing basic concepts of Rails application development and professional practices.
 
-h4. Current Version: 1.18
+h4. Current Version: 1.19
 
 This example application (here on GitHub) matches the code in the book. For recent changes, see:
 
 * "CHANGELOG":https://github.com/RailsApps/learn-rails/blob/master/CHANGELOG.textile for a summary
 * "commit log":https://github.com/RailsApps/learn-rails/commits/master for code changes
+
+The book contains a "Version Notes" chapter that offers more detail.
 
 h2. A Practical Application
 
@@ -78,7 +80,7 @@ h2. Dependencies
 
 Before generating your application, you will need:
 
-* The Ruby language - version 2.0.0
+* The Ruby language - version 2.1.0
 * The Rails gem - version 4.0
 
 See the article "Installing Rails":http://railsapps.github.io/installing-rails.html for instructions about setting up Rails and your development environment.
@@ -132,6 +134,8 @@ Enter "1" to select *Build a RailsApps starter application*. You'll see a prompt
 question  Starter apps for Rails 4.0. More to come.
       1)  learn-rails
       2)  rails-bootstrap
+      3)  rails-foundation
+      4)  rails-devise
 </pre>
 
 Choose *learn-rails*. The Rails Composer tool may give you other options (other applications may have been added since these notes were written).
@@ -184,7 +188,7 @@ You won't need "continuous testing" if you are a beginner. Select "none."
 
 h4. Front-end Framework
 
-To duplicate the example code from the book, choose "Zurb Foundation 4.0".
+To duplicate the example code from the book, choose "Zurb Foundation 5.0".
 
 h4. Other Choices
 
@@ -228,15 +232,11 @@ Here are the gems used by the application:
 
 * "activerecord-tableless":https://github.com/softace/activerecord-tableless - helps to use Rails without a database
 * "figaro":https://github.com/laserlemon/figaro - configuration framework
+* "foundation-rails":https://github.com/zurb/foundation - front-end framework
 * "gibbon":https://github.com/amro/gibbon - access to the MailChimp API
 * "google_drive":https://github.com/gimite/google-drive-ruby - use Google Drive spreadsheets for data storage
 * "high_voltage":https://github.com/thoughtbot/high_voltage - for static pages like "about"
 * "simple_form":http://simple-form.plataformatec.com.br/ - forms made easy
-
-Use these gems for the Zurb Foundation front-end framework:
-
-* "compass-rails":https://github.com/Compass/compass-rails - support for Zurb Foundation
-* "zurb-foundation":https://github.com/zurb/foundation - front-end framework
 
 These gems make development easier:
 
@@ -368,9 +368,9 @@ Please create a "GitHub issue":https://github.com/RailsApps/learn-rails/issues i
 
 h2. Where to Get Help
 
-Your best source for help with problems is "Stack Overflow":http://stackoverflow.com/questions/tagged/ruby-on-rails-3. Your issue may have been encountered and addressed by others.
+Are you stuck with code that won't work? "Stack Overflow":http://stackoverflow.com/questions/tagged/learn-ruby-on-rails provides a question-and-answer forum for readers of the book. Use the tag "learn-ruby-on-rails".
 
-You can also try "Rails Hotline":http://www.railshotline.com/, a free telephone hotline for Rails help staffed by volunteers.
+Found a bug in the tutorial application? Please create an "issue":http://github.com/RailsApps/learn-rails/issues on GitHub.
 
 h2. Contributing
 
@@ -391,7 +391,7 @@ h2. MIT License
 
 "MIT License":http://www.opensource.org/licenses/mit-license
 
-Copyright ©2013 Daniel Kehoe
+Copyright ©2013-14 Daniel Kehoe
 
 h2. Useful Links
 
