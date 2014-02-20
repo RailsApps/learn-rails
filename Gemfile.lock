@@ -53,7 +53,7 @@ GEM
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
-    foundation-rails (5.1.1.0)
+    foundation-rails (5.0.3.1)
       railties (>= 3.1.0)
       sass (>= 3.2.0)
     gibbon (1.1.1)
@@ -168,7 +168,7 @@ DEPENDENCIES
   binding_of_caller
   coffee-rails (~> 4.0.0)
   figaro
-  foundation-rails
+  foundation-rails (= 5.0.3.1)
   gibbon
   google_drive
   high_voltage
