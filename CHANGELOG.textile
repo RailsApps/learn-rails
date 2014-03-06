@@ -1,6 +1,10 @@
 h1. CHANGELOG
 
-h3. 1.20.0 February 19, 2014 (book version unreleased)
+h3. 1.19.2 March 6, 2014 (book version unreleased)
+
+* ok to specify 'foundation-rails' (foundation-rails 5.2.0.0 resolves issue #27)
+
+h3. 1.19.1 February 19, 2014 (book version unreleased)
 
 * specify 'foundation-rails 5.0.3.1' (don't use foundation-rails 5.1.1.0) pending resolution of issue #27
 * update to Rails 4.0.3
