@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 2.0.0 April 11, 2014 (book version 2.0.0)
+
+* extensive changes for Ruby 2.1 and Rails 4.1
+
 h3. 1.19.2 March 6, 2014 (book version unreleased)
 
 * ok to specify 'foundation-rails' (foundation-rails 5.2.0.0 resolves issue #27)
