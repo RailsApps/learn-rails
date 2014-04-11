@@ -142,54 +142,11 @@ question  Starter apps for Rails 4.1. More to come.
 
 Choose *learn-rails*. The Rails Composer tool may give you other options (other applications may have been added since these notes were written).
 
-The application generator template will ask you for additional preferences:
+The application generator template will ask you for an additional preference:
 
 <pre>
- question  Web server for development?
-       1)  WEBrick (default)
-       2)  Thin
-       3)  Unicorn
-       4)  Puma
-       5)  Phusion Passenger (Apache/Nginx)
-       6)  Phusion Passenger (Standalone)
- question  Web server for production?
-       1)  Same as development
-       2)  Thin
-       3)  Unicorn
-       4)  Puma
-       5)  Phusion Passenger (Apache/Nginx)
-       6)  Phusion Passenger (Standalone)
- question  Template engine?
-       1)  ERB
-       2)  Haml
-       3)  Slim
- question  Continuous testing?
-       1)  None
-       2)  Guard
-   extras  Set a robots.txt file to ban spiders? (y/n)
-   extras  Create a GitHub repository? (y/n)
    extras  Use or create a project-specific rvm gemset? (y/n)
 </pre>
-
-h4. Web Servers
-
-We recommend Thin in development for speed and less noise in the log files.
-
-If you plan to deploy to Heroku, select Thin as your production webserver. Unicorn is recommended by Heroku but configuration is more complex.
-
-h4. Template Engine
-
-The example application uses the default "ERB" Rails template engine. Optionally, you can use another template engine, such as Haml or Slim. See instructions for "Haml and Rails":http://railsapps.github.io/rails-haml.html.
-
-h4. Continuous Testing
-
-You won't need "continuous testing" if you are a beginner. Select "none."
-
-h4. Other Choices
-
-Set a robots.txt file to ban spiders if you want to keep your new site out of Google search results.
-
-If you choose to create a GitHub repository, the generator will prompt you for a GitHub username and password.
 
 It is a good idea to use "RVM":https://rvm.io/, the Ruby Version Manager, and create a project-specific rvm gemset (not available on Windows). See "Installing Rails":http://railsapps.github.io/installing-rails.html.
 
