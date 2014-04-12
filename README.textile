@@ -255,9 +255,9 @@ To add an environment variable for the MailChimp API key, "Log in to MailChimp":
 
 To find the MailChimp list ID, you must have already created a MailChimp mailing list. On the MailChimp "Lists" page, click the "down arrow" for a menu and click "Settings." At the bottom of the "List Settings" page, you'll find the unique ID for the mailing list.
 
-If you already have a custom domain name you'll use when you deploy the application, you can set @domain_name@. If you deploy the application to Heroku, you'll set @domain_name@ with the unique name you've given your application on Heroku. You'll have to wait until you deploy to know the name you'll use on Heroku.
+The variable @domain_name@ is used for sending email. You can use @example.com@ in development. If you already have a custom domain name you'll use when you deploy the application, you can set @domain_name@. If you deploy the application to Heroku, you'll set @domain_name@ with the unique name you've given your application on Heroku. You'll have to wait until you deploy to know the name you'll use on Heroku.
 
-You'll send email messages to the <code>owner_email</code> address when a visitor submits a contact request form. Set it with an email address where you receive mail.
+You'll send email messages to the @owner_email@ address when a visitor submits a contact request form. Set it with an email address where you receive mail.
 
 If you don't want to use Unix environment variables, you can set each value directly in the *config/secrets.yml* file. The file must be in your git repository when you deploy to Heroku. However, you shouldn't save the file to a public GitHub repository where other people can see your credentials.
 
