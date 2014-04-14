@@ -64,7 +64,14 @@ The application does not require a database. No pages are generated using inform
 
 h2. Similar Examples and Tutorials
 
-This is one in a series of Rails example apps and tutorials from the "RailsApps Project":http://railsapps.github.io/. See a list of additional "Rails examples, tutorials, and starter apps":http://railsapps.github.io/rails-examples-tutorials.html. The other examples are more complex.
+This is one in a series of Rails example apps and tutorials from the "RailsApps Project":http://railsapps.github.io/. See a list of additional "Rails examples, tutorials, and starter apps":http://railsapps.github.io/rails-examples-tutorials.html. Related example applications may be useful:
+
+* "Learn Rails":https://github.com/RailsApps/learn-rails companion to the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html
+* "Foundation and Rails":http://railsapps.github.io/rails-foundation/ shows how to integrate Foundation
+* "Bootstrap and Rails":http://railsapps.github.io/rails-bootstrap/ shows to integrate Bootstrap
+* "OmniAuth and Rails":https://github.com/RailsApps/rails-omniauth uses OmniAuth for authentication
+* "Devise and Rails":https://github.com/RailsApps/rails-devise uses Devise for authentication
+* "Devise and Pundit and Rails":https://github.com/RailsApps/rails-devise-pundit uses Pundit for authorization
 
 h2. Accounts You Will Need
 
@@ -154,18 +161,6 @@ h4. Troubleshooting
 
 If you get an error "OpenSSL certificate verify failed" or "Gem::RemoteFetcher::FetchError: SSL_connect" see the article "OpenSSL errors and Rails":http://railsapps.github.io/openssl-certificate-verify-failed.html.
 
-If you get an error like this:
-
-<pre>
-Your bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.
-    composer  Running 'after bundler' callbacks.
-The template [...] could not be loaded.
-Error: You have already activated ..., but your Gemfile requires ....
-Using bundle exec may solve this.
-</pre>
-
-It's due to conflicting gem versions. See the article "Rails Error: “You have already activated (…)”":http://railsapps.github.io/rails-error-you-have-already-activated.html.
-
 h3. Edit the README
 
 If you're storing the app in a GitHub repository, please edit the README files to add a description of the app and your contact info. If you don't change the README, people will think I am the author of your version of the application.
@@ -228,7 +223,7 @@ development:
   gmail_password: <%= ENV["GMAIL_PASSWORD"] %>
   mailchimp_api_key: <%= ENV["MAILCHIMP_API_KEY"] %>
   mailchimp_list_id: <%= ENV["MAILCHIMP_LIST_ID"] %>
-  domain_name: <%= ENV["DOMAIN_NAME"] %>
+  domain_name: example.com
   owner_email: <%= ENV["OWNER_EMAIL"] %>
   secret_key_base: very_long_random_string
 
@@ -314,7 +309,7 @@ See the "Tutorial for Rails on Heroku":http://railsapps.github.io/rails-heroku-t
 
 h2. Where to Get Help
 
-Are you stuck with code that won't work? "Stack Overflow":http://stackoverflow.com/questions/tagged/learn-ruby-on-rails provides a question-and-answer forum for readers of the book. Use the tag "learn-ruby-on-rails".
+Are you stuck with code that won't work? "Stack Overflow":http://stackoverflow.com/questions/tagged/learn-ruby-on-rails provides a question-and-answer forum for readers of the book. Use the tag "railsapps".
 
 Found a bug in the tutorial application? Please create an "issue":http://github.com/RailsApps/learn-rails/issues on GitHub.
 
