@@ -1,7 +1,12 @@
-Instructions for Nitrous.io
+ATTENTION
 ============================================
 
 If you are viewing this file in the Nitrous.io development environment...
+
+You must update your Nitrous.io environment to use Ruby 2.1.1 (or newer).
+
+For instructions, see the article 'Ruby on Rails with Nitrous.io':
+http://railsapps.github.io/rubyonrails-nitrous-io.html
 
 Use the console to launch the application:
 
