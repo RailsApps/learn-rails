@@ -14,7 +14,7 @@ This example application is fully documented in the book "Learn Ruby on Rails":h
 
 With the book, a complete beginner can create this application without any additional knowledge. The book explains all the code, introducing basic concepts of Rails application development and professional practices.
 
-h4. Current Version: 2.0.0
+h4. Book Current Version: 2.0.1
 
 This example application (here on GitHub) matches the code in the book. For recent changes, see:
 
