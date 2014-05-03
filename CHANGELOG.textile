@@ -1,5 +1,10 @@
 h1. CHANGELOG
 
+h3. 2.0.1 April 16, 2014 (book version 2.0.1)
+
+* replaced 'Rails.application.secrets.gmail_username' with 'Rails.application.secrets.email_provider_username'
+* replaced 'gmail_password' with 'email_provider_password'
+
 h3. 2.0.0 April 11, 2014 (book version 2.0.0)
 
 * extensive changes for Ruby 2.1 and Rails 4.1
