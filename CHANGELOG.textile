@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 2.0.2 May 5, 2014 (book version unreleased)
+
+* set 'mailchimp_api_key' explicitly when instantiating Gibbon
+
 h3. 2.0.1 April 16, 2014 (book version 2.0.1)
 
 * replaced 'Rails.application.secrets.gmail_username' with 'Rails.application.secrets.email_provider_username'
