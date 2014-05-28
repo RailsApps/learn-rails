@@ -138,8 +138,8 @@ You'll see a prompt:
 <pre>
 question  Build a starter application?
       1)  Build a RailsApps example application
-      2)  Build a contributed application
-      3)  I want to build my own application
+      2)  Contributed applications
+      3)  Custom application
 </pre>
 
 Enter "1" to select *Build a RailsApps example application*. You'll see a prompt:
