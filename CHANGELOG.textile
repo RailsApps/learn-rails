@@ -1,6 +1,11 @@
 h1. CHANGELOG
 
-h3. 2.0.2 May 5, 2014 (book version unreleased)
+h3. 2.0.3 July 7, 2014 (book version unreleased)
+
+* updated Ruby from version 2.1.1 to 2.1.2
+* updated Rails from version 4.1.1 to Rails 4.1.4
+
+h3. 2.0.2 May 5, 2014 (book version 2.0.2)
 
 * set 'mailchimp_api_key' explicitly when instantiating Gibbon
 
