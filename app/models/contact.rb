@@ -1,9 +1,8 @@
-class Contact < ActiveRecord::Base
-  has_no_table
-
-  column :name, :string
-  column :email, :string
-  column :content, :string
+class Contact
+  include ActiveModel::Model
+  attr_accessor :name, :string
+  attr_accessor :email, :string
+  attr_accessor :content, :string
 
   validates_presence_of :name
   validates_presence_of :email

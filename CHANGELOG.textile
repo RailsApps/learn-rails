@@ -1,9 +1,10 @@
 h1. CHANGELOG
 
-h3. 2.0.3 July 7, 2014 (book version unreleased)
+h3. 2.1.0 unreleased (book version 2.1.0)
 
 * updated Ruby from version 2.1.1 to 2.1.2
-* updated Rails from version 4.1.1 to Rails 4.1.4
+* updated Rails from version 4.1.1 to Rails 4.1.5
+* use ActiveModel instead of the activerecord-tableless gem
 
 h3. 2.0.2 May 5, 2014 (book version 2.0.2)
 
