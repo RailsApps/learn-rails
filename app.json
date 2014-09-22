@@ -19,27 +19,33 @@
     "RAILS_ENV": "production",
     "GMAIL_USERNAME": {
       "description": "Your Gmail user name.",
-      "value": "user@example.com"
+      "value": "user@example.com",
+      "required": false
     },
     "GMAIL_PASSWORD": {
       "description": "Your Gmail password.",
-      "value": "changeme"
+      "value": "changeme",
+      "required": false
     },
     "MAILCHIMP_API_KEY": {
       "description": "Create a MailChimp account and enter your API key here.",
-      "value": "mykey"
+      "value": "mykey",
+      "required": false
     },
     "MAILCHIMP_LIST_ID": {
       "description": "Create a MailChimp mailing list and enter it here.",
-      "value": "mylistid"
+      "value": "mylistid",
+      "required": false
     },
     "OWNER_EMAIL": {
       "description": "Destination for messages sent from the app's contact form.",
-      "value": "user@example.com"
+      "value": "user@example.com",
+      "required": false
     },
     "DOMAIN_NAME": {
-      "description": "Required for sending mail.",
-      "value": "myapp.herokuapp.com"
+      "description": "Required for sending mail. Use the app name you've given.",
+      "value": "myapp.herokuapp.com",
+      "required": false
     }
   }
 }
