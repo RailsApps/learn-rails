@@ -1,6 +1,6 @@
 {
-  "name": "'Learn Ruby on Rails' Tutorial Application",
-  "description": "From the book 'Learn Ruby on Rails' by Daniel Kehoe",
+  "name": "learn-rails",
+  "description": "Tutorial application from the book 'Learn Ruby on Rails' by Daniel Kehoe",
   "keywords": [
     "Ruby 2",
     "Rails 4",
