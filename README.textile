@@ -1,6 +1,6 @@
 h1. !http://railsapps.github.io/images/rails-36x36.jpg(Learn Rails)! Learn Rails
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) "!https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png(Hack RailsApps/learn-rails on Nitrous.IO)!":https://www.nitrous.io/hack_button?source=embed&runtime=rails&repo=RailsApps%2Flearn-rails&file_to_open=nitrous.txt
+"!https://www.herokucdn.com/deploy/button.png(Deploy to Heroku)!":https://heroku.com/deploy "!https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png(Hack RailsApps/learn-rails on Nitrous.IO)!":https://www.nitrous.io/hack_button?source=embed&runtime=rails&repo=RailsApps%2Flearn-rails&file_to_open=nitrous.txt
 
 A Rails 4.1 example application to accompany the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html.
 
@@ -99,9 +99,9 @@ h3. Cloud
 
 h4. Heroku
 
-Click the button to deploy immediately to Heroku:
+Click the button to deploy to Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+"!https://www.herokucdn.com/deploy/button.png(Deploy to Heroku)!":https://heroku.com/deploy
 
 Click the button below to install the app on "Nitrous.io":https://www.nitrous.io/, a hosted development environment. Nitrous.io is free for small projects. See "Ruby on Rails with Nitrous.io":http://railsapps.github.io/rubyonrails-nitrous-io.html for more information.
 
