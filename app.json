@@ -1,0 +1,45 @@
+{
+  "name": "'Learn Ruby on Rails' Tutorial Application",
+  "description": "From the book 'Learn Ruby on Rails' by Daniel Kehoe",
+  "keywords": [
+    "Ruby 2",
+    "Rails 4",
+    "Kehoe",
+    "RailsApps",
+    "Tutorial",
+    "Example",
+    "Google Drive",
+    "MailChimp"
+  ],
+  "website": "http://learn-rails.com/learn-ruby-on-rails.html",
+  "repository": "https://github.com/RailsApps/learn-rails",
+  "logo": "https://avatars3.githubusercontent.com/u/788200",
+  "scripts": {},
+  "env": {
+    "RAILS_ENV": "production",
+    "GMAIL_USERNAME": {
+      "description": "Your Gmail user name.",
+      "value": "user@example.com"
+    },
+    "GMAIL_PASSWORD": {
+      "description": "Your Gmail password.",
+      "value": "changeme"
+    },
+    "MAILCHIMP_API_KEY": {
+      "description": "Create a MailChimp account and enter your API key here.",
+      "value": "mykey"
+    },
+    "MAILCHIMP_LIST_ID": {
+      "description": "Create a MailChimp mailing list and enter it here.",
+      "value": "mylistid"
+    },
+    "OWNER_EMAIL": {
+      "description": "Destination for messages sent from the app's contact form.",
+      "value": "user@example.com"
+    },
+    "DOMAIN_NAME": {
+      "description": "Required for sending mail.",
+      "value": "myapp.herokuapp.com"
+    }
+  }
+}
