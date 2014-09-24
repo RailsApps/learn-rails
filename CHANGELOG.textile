@@ -1,5 +1,12 @@
 h1. CHANGELOG
 
+h3. 2.0.4 September 24, 2014 (book version unreleased)
+
+* updated Ruby from version 2.1.2 to 2.1.3
+* updated Rails from version 4.1.4 to Rails 4.1.6
+* add files to support deployment with Heroku Button
+* specify 'foundation-rails 5.4.3.1' (don't use foundation-rails 5.4.4.0) pending resolution of issue #38
+
 h3. 2.0.3 July 7, 2014 (book version unreleased)
 
 * updated Ruby from version 2.1.1 to 2.1.2
