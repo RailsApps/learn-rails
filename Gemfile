@@ -10,7 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'activerecord-tableless'
-gem 'foundation-rails', '5.4.3.1'
+gem 'foundation-rails'
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'

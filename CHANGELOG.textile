@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 2.0.5 September 28, 2014 (book version unreleased)
+
+* no need to specify 'foundation-rails' gem version (closes issue #38)
+
 h3. 2.0.4 September 24, 2014 (book version unreleased)
 
 * updated Ruby from version 2.1.2 to 2.1.3
