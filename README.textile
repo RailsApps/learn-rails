@@ -8,7 +8,7 @@ The book introduces basic concepts of Rails development by showing the reader ho
 
 You can build this application in only a few minutes using the "Rails Composer":http://railsapps.github.io/rails-composer/ tool.
 
-h2. Learn Ruby on Rails
+h2. The Book: 'Learn Ruby on Rails'
 
 h3. !http://railsapps.github.io/images/learn-rails-cover-130x161.jpg(Learn Ruby on Rails)!:http://learn-rails.com/learn-ruby-on-rails.html
 
