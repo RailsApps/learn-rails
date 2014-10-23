@@ -4,7 +4,7 @@ h1. !http://railsapps.github.io/images/rails-36x36.jpg(Learn Rails)! Learn Rails
 
 A Rails 4.1 example application to accompany the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html.
 
-The book introduces basic concepts of Rails development by showing the reader how to build an application that can be used for a typical small business website. The application includes a home page, "about" page, contact form, and option to sign up for a mailing list.
+The book introduces basic concepts of Rails development by showing the reader how to build an application that can be used for a typical small business website.
 
 You can build this application in only a few minutes using the "Rails Composer":http://railsapps.github.io/rails-composer/ tool.
 
@@ -16,9 +16,9 @@ This example application is fully documented in the book "Learn Ruby on Rails":h
 
 With the book, a complete beginner can create this application without any additional knowledge. The book explains all the code, introducing basic concepts of Rails application development and professional practices.
 
-h4. Latest Book Version: 2.1.0
+h4. Latest Book Version: 2.1.1
 
-The most recent version of the book was written for Rails 4.1 and released October 12, 2014.
+The most recent version of the book was written for Rails 4.1 and released October 22, 2014. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
 
 h4. Application Version: 2.1.0
 
