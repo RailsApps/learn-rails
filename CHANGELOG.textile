@@ -1,6 +1,11 @@
 h1. CHANGELOG
 
-h3. 2.1.0 October 12, 2014 (book version 2.10)
+h3. 2.1.2 December 4, 2014 (book version 2.1.2)
+
+* updated Ruby from version 2.1.3 to 2.1.5
+* updated Rails from version 4.1.6 to Rails 4.1.8
+
+h3. 2.1.0 October 12, 2014 (book version 2.1.1)
 
 * no need to specify 'foundation-rails' gem version (closes issue #38)
 
