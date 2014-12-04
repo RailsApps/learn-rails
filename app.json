@@ -27,10 +27,6 @@
       "value": "user@example.com",
       "required": false
     },
-    "OWNER_EMAIL": {
-      "description": "no description",
-      "required": false
-    },
     "MAILCHIMP_LIST_ID": {
       "description": "no description",
       "required": false
