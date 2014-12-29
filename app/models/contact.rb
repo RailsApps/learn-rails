@@ -1,9 +1,8 @@
-class Contact < ActiveRecord::Base
-  has_no_table
-
-  column :name, :string
-  column :email, :string
-  column :content, :string
+class Contact
+  include ActiveModel::Model
+  attr_accessor :name, :string
+  attr_accessor :email, :string
+  attr_accessor :content, :string
 
   validates_presence_of :name
   validates_presence_of :email
@@ -12,7 +11,8 @@ class Contact < ActiveRecord::Base
   validates_length_of :content, :maximum => 500
 
   def update_spreadsheet
-    connection = GoogleDrive.login(Rails.application.secrets.email_provider_username, Rails.application.secrets.email_provider_password)
+    connection = GoogleDrive.login(Rails.application.secrets.email_provider_username, Rails.application.secrets.email_provider_password
+)
     ss = connection.spreadsheet_by_title('Learn-Rails-Example')
     if ss.nil?
       ss = connection.create_spreadsheet('Learn-Rails-Example')
