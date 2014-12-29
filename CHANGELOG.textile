@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 2.1.3 December 25, 2014 (book version 2.1.3)
+
+* updated Rails from version 4.1.8 to Rails 4.2.0
+
 h3. 2.1.2 December 4, 2014 (book version 2.1.2)
 
 * updated Ruby from version 2.1.3 to 2.1.5

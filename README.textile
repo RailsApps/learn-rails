@@ -2,7 +2,7 @@ h1. !http://railsapps.github.io/images/rails-36x36.jpg(Learn Rails)! Learn Rails
 
 "!https://www.herokucdn.com/deploy/button.png(Deploy to Heroku)!":https://heroku.com/deploy "!https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png(Hack RailsApps/learn-rails on Nitrous.IO)!":https://www.nitrous.io/hack_button?source=embed&runtime=rails&repo=RailsApps%2Flearn-rails&file_to_open=nitrous.txt
 
-A Rails 4.1 example application to accompany the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html.
+A Rails 4.2 example application to accompany the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html.
 
 The book introduces basic concepts of Rails development by showing the reader how to build an application that can be used for a typical small business website.
 
@@ -16,16 +16,16 @@ This example application is fully documented in the book "Learn Ruby on Rails":h
 
 With the book, a complete beginner can create this application without any additional knowledge. The book explains all the code, introducing basic concepts of Rails application development and professional practices.
 
-h4. Latest Book Version: 2.1.2
+h4. Latest Book Version: 2.1.3
 
-The most recent version of the book was written for Rails 4.1 and released December 4, 2014. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
+The most recent version of the book was written for Rails 4.2 and released December 25, 2014. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
 
-h4. Application Version: 2.1.2
+h4. Application Version: 2.1.3
 
 This example application (here on GitHub) is the same as the code in the book. In particular:
 
 * Ruby 2.1.5
-* Rails 4.1.8
+* Rails 4.2.0
 
 For recent changes, see:
 
@@ -96,7 +96,7 @@ h2. Dependencies
 Before generating your application, you will need:
 
 * The Ruby language - version 2.1
-* The Rails gem - version 4.1
+* The Rails gem - version 4.2
 
 See the article "Installing Rails":http://railsapps.github.io/installing-rails.html for instructions about setting up Rails and your development environment.
 
@@ -124,7 +124,7 @@ h4. Generate
 
 If you want to use the project as a starter application, use the "Rails Composer":http://railsapps.github.io/rails-composer/ tool to generate a new version of the example app. You'll be able to give it your own project name when you generate the app. Generating the application gives you additional options.
 
-To build the example application, Rails 4.1 must be installed in your development environment. Run the command:
+To build the example application, Rails 4.2 must be installed in your development environment. Run the command:
 
 <pre>
 $ rails new learn-rails -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb
@@ -139,22 +139,26 @@ This creates a new Rails app named @learn-rails@ on your computer. You can use a
 You'll see a prompt:
 
 <pre>
-question  Build a starter application?
-      1)  Build a RailsApps example application
-      2)  Contributed applications
-      3)  Custom application
+option  Build a starter application?
+    1)  Build a RailsApps example application
+    2)  Contributed applications
+    3)  Custom application
 </pre>
 
 Enter "1" to select *Build a RailsApps example application*. You'll see a prompt:
 
 <pre>
-question  Starter apps for Rails 4.1. More to come.
-      1)  learn-rails
-      2)  rails-bootstrap
-      3)  rails-foundation
-      4)  rails-omniauth
-      5)  rails-devise
-      6)  rails-devise-pundit
+option  Choose a starter application.
+    1)  learn-rails
+    2)  rails-bootstrap
+    3)  rails-foundation
+    4)  rails-mailinglist-activejob
+    5)  rails-omniauth
+    6)  rails-devise
+    7)  rails-devise-roles
+    8)  rails-devise-pundit
+    9)  rails-signup-download
+   10)  rails-stripe-checkout
 </pre>
 
 Choose *learn-rails*. The Rails Composer tool may give you other options (other applications may have been added since these notes were written).
@@ -308,15 +312,6 @@ h4. From the Command Line
 
 Alternatively, you can deploy from the command line.
 
-You'll need to precompile assets before you commit to git and push to Heroku:
-
-<pre>
-$ RAILS_ENV=production rake assets:precompile
-$ git add -A
-$ git commit -m "assets compiled for Heroku"
-$ git push origin master
-</pre>
-
 If you've set configuration values in the *config/secrets.yml* file, you'll need to set them as Heroku environment variables. You can set Heroku environment variables directly with @heroku config:add@. For example:
 
 <pre>
@@ -366,7 +361,7 @@ h2. MIT License
 
 "MIT License":http://www.opensource.org/licenses/mit-license
 
-Copyright ©2013-14 Daniel Kehoe
+Copyright ©2013-15 Daniel Kehoe
 
 h2. Useful Links
 
@@ -384,5 +379,3 @@ h2. Useful Links
 | "Rails Composer":http://railsapps.github.io/rails-composer/ |                                        "Rails Application Templates":http://railsapps.github.io/rails-application-templates.html |
 | "Rails Examples":http://railsapps.github.io/ |                                                       "Rails Product Planning":http://railsapps.github.io/rails-product-planning.html |
 | "Rails Starter Apps":http://railsapps.github.io/rails-examples-tutorials.html |                      "Rails Project Management":http://railsapps.github.io/rails-project-management.html |
-
-!https://cruel-carlota.pagodabox.com/851214df42152a0aceb61c9a3ec5a4b6(githalytics.com)!
