@@ -20,12 +20,9 @@ h4. Latest Book Version: 2.1.3
 
 The most recent version of the book was written for Rails 4.2 and released December 25, 2014. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
 
-h4. Application Version: 2.1.3
+h4. Application Version: 2.1.4
 
-This example application (here on GitHub) is the same as the code in the book. In particular:
-
-* Ruby 2.1.5
-* Rails 4.2.0
+This example application (here on GitHub) differs from the code in the book.
 
 For recent changes, see:
 
