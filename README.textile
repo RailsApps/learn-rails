@@ -22,7 +22,7 @@ The most recent version of the book was written for Rails 4.2 and released Janua
 
 h4. Application Version: 2.1.5
 
-This example application (here on GitHub) is the same as the code in the book.
+This example application (here on GitHub) is slightly different from the code in the book.
 
 For recent changes, see:
 
