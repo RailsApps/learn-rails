@@ -16,13 +16,13 @@ This example application is fully documented in the book "Learn Ruby on Rails":h
 
 With the book, a complete beginner can create this application without any additional knowledge. The book explains all the code, introducing basic concepts of Rails application development and professional practices.
 
-h4. Latest Book Version: 2.1.4
+h4. Latest Book Version: 2.1.5
 
-The most recent version of the book was written for Rails 4.2 and released January 3, 2015. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
+The most recent version of the book was written for Rails 4.2 and released March 4, 2015. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
 
 h4. Application Version: 2.1.5
 
-This example application (here on GitHub) is slightly different from the code in the book.
+This example application (here on GitHub) is the same as the code in the book.
 
 For recent changes, see:
 
