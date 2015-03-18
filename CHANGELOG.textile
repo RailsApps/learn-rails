@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 2.1.6 March 17, 2015 (book version 2.1.6)
+
+* book version matches the example application
+
 h3. 2.1.5 February 16, 2015 (book version 2.1.5)
 
 * use Ruby 1.9 hash syntax in the 'validates_format_of :email' statement (closes issue #46)
