@@ -3,6 +3,7 @@ h1. CHANGELOG
 h3. 2.2.1 September 2, 2015 (book version 2.2.0)
 
 * updated Rails from version Rails 4.2.1 to 4.2.4
+* update Visitor model for Gibbon 2.0
 
 h3. 2.2.0 June 6, 2015 (book version 2.2.0)
 
