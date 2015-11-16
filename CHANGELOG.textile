@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 2.2.3 November 16, 2015 (book version 2.2.2)
+
+* updated Rails from Rails version 4.2.4 to 4.2.5
+
 h3. 2.2.2 October 30, 2015 (book version 2.2.2)
 
 * updated filename to '1st_load_framework.css.scss' from 'framework_and_overrides.css.scss' for change in the rails_layout gem
