@@ -1,5 +1,12 @@
 h1. CHANGELOG
 
+h3. 3.0.0 January 14, 2016 (book version 3.0.0)
+
+* switch to using the Mandrill service to send email
+* changes to the UserMailer class
+* sending mail now requires the method 'deliver_now' instead of 'deliver'
+* updated Ruby version to 2.3.0
+
 h3. 2.2.3 November 16, 2015 (book version 2.2.2)
 
 * updated Rails from Rails version 4.2.4 to 4.2.5
