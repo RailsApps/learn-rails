@@ -12,7 +12,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
-gem 'foundation-rails'
+gem 'foundation-rails', '~> 5.5'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'simple_form'
