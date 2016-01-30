@@ -31,7 +31,7 @@ Rails.application.configure do
     address: "smtp.mandrillapp.com",
     port: 587,
     user_name: Rails.application.secrets.email_provider_username,
-    password: Rails.application.secrets.email_provider_apikey
+    password: Rails.application.secrets.email_provider_api_key
   }
   # ActionMailer Config
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }

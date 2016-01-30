@@ -3,7 +3,7 @@ h1. CHANGELOG
 h3. 3.0.2 January 30, 2016 (Book Two version 3.0.2)
 
 * minor change 'email_provider_username' was 'mandrill_username'
-* minor change 'email_provider_apikey' was 'mandrill_apikey'
+* minor change 'email_provider_api_key' was 'mandrill_apikey'
 
 h3. 3.0.1 January 29, 2016 (Book Two version 3.0.1)
 
