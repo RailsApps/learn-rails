@@ -85,8 +85,8 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address: "smtp.mandrillapp.com",
     port: 587,
-    user_name: Rails.application.secrets.mandrill_username,
-    password: Rails.application.secrets.mandrill_api_key
+    user_name: Rails.application.secrets.email_provider_username,
+    password: Rails.application.secrets.email_provider_apikey
   }
 
 end
