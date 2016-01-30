@@ -18,11 +18,11 @@ h4. Latest Version, Book One: 3.0.0
 
 Book One does not contain code from the application and does not change often. The most recent version of the book was written for Rails 4.2 and released January 14, 2016.
 
-h4. Latest Version, Book Two: 3.0.1
+h4. Latest Version, Book Two: 3.0.2
 
-Book Two contains a tutorial application and changes more frequently. The most recent version of the book was written for Rails 4.2 and released January 29, 2016. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
+Book Two contains a tutorial application and changes more frequently. The most recent version of the book was written for Rails 4.2 and released January 30, 2016. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
 
-h4. Application Version: 3.0.1
+h4. Application Version: 3.0.2
 
 This example application (here on GitHub) matches the code in Book Two.
 
