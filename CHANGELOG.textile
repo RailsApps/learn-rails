@@ -1,6 +1,6 @@
 h1. CHANGELOG
 
-h3. 3.0.2 February 29, 2016 (Book Two version 3.1.0)
+h3. 3.1.0 February 29, 2016 (Book Two version 3.1.0)
 
 * switch to using the SendGrid service to send email
 
