@@ -81,7 +81,7 @@ The application includes a form that allows website visitors to "opt-in" to a ma
 
 With MailChimp, you can send a welcome message automatically when the visitor signs up for the mailing list. It’s a bit difficult to find the MailChimp option to create a welcome message. Strangely, MailChimp considers a welcome message a "form." Here's how to find it. On the MailChimp "Lists" page, click the "down arrow" for a menu and click "Signup forms." Then click "Link to a form." On the "Create Forms" page, there is a dropdown list of "Forms & Response Emails." The gray box shows "Signup form." Click the down arrow. Select the menu item named "Final 'Welcome' Email" and you'll be able to create a welcome message.
 
-To send email from the application, you will need a "Mandrill":http://mandrill.com/ account. Sign up for a MailChimp account to get started. After you've created your MailChimp account, see the instructions [How do I use Mandrill if I already have a MailChimp account?](http://help.mandrill.com/entries/21681117-how-do-i-use-mandrill-if-i-already-have-a-mailchimp-account). Or you can connect directly to an SMTP mail server to send email. See the article "Send Email with Rails":http://railsapps.github.io/rails-send-email.html for more information.
+To send email from the application, you will need a "SendGrid":https://sendgrid.com/ account.
 
 We provide instructions to deploy the tutorial application to "Heroku":https://www.heroku.com/ which provides Rails application hosting. It costs nothing to set up a Heroku account and deploy as many applications as you want. To deploy an app to Heroku, you must have a Heroku account. Visit Heroku "to set up an account":https://id.heroku.com/signup/devcenter.
 
@@ -225,11 +225,11 @@ Add your credentials to the file *config/secrets.yml*:
 # if you're sharing your code publicly.
 
 development:
-  mandrill_username: <%= ENV["MANDRILL_USERNAME"] %>
-  mandrill_api_key: <%= ENV["MANDRILL_API_KEY"] %>
+  email_provider_username: <%= ENV["SENDGRID_USERNAME"] %>
+  email_provider_password: <%= ENV["SENDGRID_PASSWORD"] %>
+  domain_name: example.com
   mailchimp_api_key: <%= ENV["MAILCHIMP_API_KEY"] %>
   mailchimp_list_id: <%= ENV["MAILCHIMP_LIST_ID"] %>
-  domain_name: example.com
   owner_email: <%= ENV["OWNER_EMAIL"] %>
   secret_key_base: very_long_random_string
 
@@ -239,16 +239,16 @@ test:
 # Do not keep production secrets in the repository,
 # instead read values from the environment.
 production:
-  mandrill_username: <%= ENV["MANDRILL_USERNAME"] %>
-  mandrill_api_key: <%= ENV["MANDRILL_API_KEY"] %>
+  email_provider_username: <%= ENV["SENDGRID_USERNAME"] %>
+  email_provider_password: <%= ENV["SENDGRID_PASSWORD"] %>
+  domain_name: <%= ENV["DOMAIN_NAME"] %>
   mailchimp_api_key: <%= ENV["MAILCHIMP_API_KEY"] %>
   mailchimp_list_id: <%= ENV["MAILCHIMP_LIST_ID"] %>
-  domain_name: <%= ENV["DOMAIN_NAME"] %>
   owner_email: <%= ENV["OWNER_EMAIL"] %>
   secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
 </pre>
 
-All configuration values in the *config/secrets.yml* file are available anywhere in the application as variables. For example, @Rails.application.secrets.mandrill_username@ will return the string set in the Unix environment variable @MANDRILL_USERNAME@.
+All configuration values in the *config/secrets.yml* file are available anywhere in the application as variables. For example, @Rails.application.secrets.email_provider_username@ will return the string set in the Unix environment variable @SENDGRID_USERNAME@.
 
 To add an environment variable for the MailChimp API key, "Log in to MailChimp":https://admin.mailchimp.com/ to get your API key. Click your name at the top of the navigation menu, then click "Account Settings." Click "Extras," then "API keys."
 
@@ -293,7 +293,7 @@ You can deploy from the command line.
 If you've set configuration values in the *config/secrets.yml* file, you'll need to set them as Heroku environment variables. You can set Heroku environment variables directly with @heroku config:add@. For example:
 
 <pre>
-$ heroku config:add MANDRILL_USERNAME='MyUsername' MANDRILL_API_KEY='my-key'
+$ heroku config:add SENDGRID_USERNAME='example' SENDGRID_PASSWORD='secret'
 $ heroku config:add MAILCHIMP_API_KEY='my-key' MAILCHIMP_LIST_ID='mylistid'
 $ heroku config:add OWNER_EMAIL='me@example.com' DOMAIN_NAME='myapp.herokuapp.com'
 </pre>
