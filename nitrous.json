@@ -1,0 +1,10 @@
+{
+  "template": "rails",
+  "ports": [3000],
+  "name": "Learn Rails",
+  "description": "A Rails 4.2 example application to accompany the book 'Learn Ruby on Rails'.",
+  "scripts": {
+    "post-create": "rm -rf ~/code/example && rbenv install 2.3.0 && rbenv global 2.3.0 && gem install bundle && cd ~/code/learn-rails && bundle install",
+    "Start Learn Rails": "cd ~/code/learn-rails && rails s -b 0.0.0.0"
+  }
+}
