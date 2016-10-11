@@ -157,12 +157,6 @@ option  Choose a starter application.
 
 Choose *learn-rails*. The Rails Composer tool may give you other options (other applications may have been added since these notes were written).
 
-The application generator template will ask you for an additional preference:
-
-<pre>
-   extras  Use or create a project-specific rvm gemset? (y/n)
-</pre>
-
 It is a good idea to use "rvm":https://rvm.io/, the Ruby Version Manager, and create a project-specific rvm gemset (not available on Windows). See "Installing Rails":http://railsapps.github.io/installing-rails.html.
 
 h4. Troubleshooting
