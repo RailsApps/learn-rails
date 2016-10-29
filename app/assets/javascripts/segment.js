@@ -81,15 +81,11 @@
   // load the tools you've enabled for your account. Boosh!
   analytics.load("YOUR_WRITE_KEY");
 
-  // Make the first page call to load the integrations. If
-  // you'd like to manually name or tag the page, edit or
-  // move this call however you'd like.
-  analytics.page();
 })();
 
 // accommodate Turbolinks
 // track page views and form submissions
-$(document).on('ready page:change', function() {
+$(document).on('turbolinks:load', function() {
   console.log('page loaded');
   analytics.page();
   analytics.trackForm($('#new_visitor'), 'Signed Up');

@@ -47,7 +47,6 @@ Rails.application.configure do
     port: 587,
     domain: Rails.application.secrets.domain_name,
     authentication: "plain",
-    enable_starttls_auto: true,
     user_name: Rails.application.secrets.email_provider_username,
     password: Rails.application.secrets.email_provider_password
   }
@@ -58,6 +57,8 @@ Rails.application.configure do
   # Send email in development mode?
   config.action_mailer.perform_deliveries = true
 
+  # Send email in development mode?
+  config.action_mailer.perform_deliveries = true
 
   # Suppress logger output for asset requests.
   config.assets.quiet = true

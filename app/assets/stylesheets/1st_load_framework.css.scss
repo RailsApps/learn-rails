@@ -1,46 +1,44 @@
 // import the CSS framework
-@import "foundation";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
+// make all images responsive by default
+img {
+  @extend .img-responsive;
+  margin: 0 auto;
+  }
 // override for the 'Home' navigation link
-.top-bar .name {
-  font-size: rem-calc(13);
-  line-height: 45px; }
-.top-bar .name a {
-  font-weight: normal;
-  color: white;
-  padding: 0 15px; }
+.navbar-brand {
+  font-size: inherit;
+  }
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
-// create mixins using Foundation classes
-@mixin twelve-columns {
-  @extend .small-12;
-  @extend .columns;
-  }
-@mixin six-columns-centered {
-  @extend .small-6;
-  @extend .columns;
-  @extend .text-center;
-  }
 // create your own classes
 // to make views framework-neutral
 .column {
-  @include six-columns-centered;
+  @extend .col-md-6;
+  @extend .text-center;
   }
 .form {
-  @include grid-column(6);
+  @extend .col-md-6;
   }
 .form-centered {
-  @include six-columns-centered;
+  @extend .col-md-6;
+  @extend .text-center;
   }
 .submit {
-  @extend .button;
-  @extend .radius;
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-lg;
   }
 // apply styles to HTML elements
 // to make views framework-neutral
 main {
-  @include twelve-columns;
+  @extend .container;
   background-color: #eee;
+  padding-bottom: 80px;
+  width: 100%;
+  margin-top: 51px; // accommodate the navbar
   }
 section {
   @extend .row;
