@@ -3,6 +3,7 @@ h1. CHANGELOG
 h3. 4.0.0 October 29, 2016 (Book Two version 4.0.0)
 
 * conform to examples in Book Two version 4.0.0
+* add enable_starttls_auto to email config
 * use Bootstrap instead of Foundation front-end framework
 
 h3. 3.2.1 October 28, 2016 (Book Two version 3.1.0)
