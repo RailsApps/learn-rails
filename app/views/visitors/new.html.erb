@@ -9,11 +9,11 @@
   </div>
   <div class="column">
     <div class="form-centered">
-      <%= simple_form_for @visitor do |f| %>
-        <%= f.error_notification %>
-        <%= f.input :email, label: false, :placeholder => 'Your email address...' %>
+      <%= form_with(model: @visitor) do |f| %>
+        <%= f.email_field :email, placeholder: 'Your email address...', autofocus: true %>
         <br/>
-        <%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
+        <br/>
+        <%= f.submit 'Sign up for the newsletter', class: 'submit' %>
       <% end %>
     </div>
   </div>
