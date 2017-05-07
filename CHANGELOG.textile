@@ -1,5 +1,11 @@
 h1. CHANGELOG
 
+h3. 4.1.0 May 6, 2017 (Book Two version 4.0.0)
+
+* update to Ruby 2.4.1 and Rails 5.1
+* remove simple form gem (not compatible with Rails 5.1)
+* use Rails 5.1 'form_with' (replaces 'form-for')
+
 h3. 4.0.0 October 29, 2016 (Book Two version 4.0.0)
 
 * conform to examples in Book Two version 4.0.0
