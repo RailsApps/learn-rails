@@ -31,7 +31,6 @@ end
 gem 'bootstrap-sass'
 gem 'gibbon'
 gem 'high_voltage'
-gem 'simple_form'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
