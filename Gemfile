@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 ruby '2.4.1'
-gem 'rails', '~> 5.1.0'
+gem 'rails', '~> 5.1.1'
 
 # Rails defaults
 gem 'puma', '~> 3.7'
@@ -17,7 +17,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'capybara', '~> 2.13.0'
+  gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 end
 group :development do
@@ -31,9 +31,12 @@ end
 gem 'bootstrap-sass'
 gem 'gibbon'
 gem 'high_voltage'
+gem 'jquery-rails'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
+end
+group :development, :test do
   gem 'sqlite3'
 end
 group :production do
