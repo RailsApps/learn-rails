@@ -26,6 +26,8 @@ h4. Application Version: 4.1.0
 
 This example application (here on GitHub) is newer than the code in Book Two.
 
+Switch to the branch "Rails50" if you need the code that matches Book Two (using Rails 5.0).
+
 For recent changes, see:
 
 * "CHANGELOG":https://github.com/RailsApps/learn-rails/blob/master/CHANGELOG.textile for a summary
