@@ -6,27 +6,23 @@ The book introduces basic concepts of Rails development by showing the reader ho
 
 You can build this application in only a few minutes using the "Rails Composer":http://railsapps.github.io/rails-composer/ tool.
 
-h2. The Book: 'Learn Ruby on Rails'
+h2. The Book Set: 'Learn Ruby on Rails'
 
 h3. !http://railsapps.github.io/images/learn-rails-cover-130x161.jpg(Learn Ruby on Rails)!:http://learn-rails.com/learn-ruby-on-rails.html
 
-This example application is fully documented in the book "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html. May I suggest, you should "get the book":http://learn-rails.com/learn-ruby-on-rails.html.
+This example application is fully documented in the book set "Learn Ruby on Rails":http://learn-rails.com/learn-ruby-on-rails.html. May I suggest, you should "get the books":http://learn-rails.com/learn-ruby-on-rails.html.
 
-With the book, a complete beginner can create this application without any additional knowledge. The book explains all the code, introducing basic concepts of Rails application development and professional practices.
+With the books, a complete beginner can create this application without any additional knowledge. The books explain all the code, introducing basic concepts of Rails application development and professional practices.
 
-h4. Latest Version, Book One: 3.0.0
+h4. Book Two, Latest Version: 4.1.0
 
-Book One does not contain code from the application and does not change often. The most recent version of the book was released January 14, 2016.
+There are two books. Book One does not contain code from the application and does not change often.
 
-h4. Latest Version, Book Two: 4.0.0
-
-Book Two contains a tutorial application and changes more frequently. The most recent version of the book was written for Rails 5.0 and released October 31, 2016. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
+Book Two contains a tutorial application and changes frequently. The most recent version of the book was written for Rails 5.1 and released July 3, 2017. Please make sure you have the newest version of the book (or the code examples may not work). The book version is shown on the title page. "Get the book":http://learn-rails.com/learn-ruby-on-rails.html if you need the new version.
 
 h4. Application Version: 4.1.0
 
-This example application (here on GitHub) is newer than the code in Book Two.
-
-Switch to the branch "Rails50" if you need the code that matches Book Two (using Rails 5.0).
+This example application (here on GitHub) matches the code in Book Two.
 
 For recent changes, see:
 
