@@ -100,7 +100,7 @@ You have several options for getting the code on your own machine. You can _fork
 
 h4. Fork
 
-If you'd like to add features (or bug fixes) to improve the example application, you can fork the GitHub repo and "make pull requests":http://help.github.com/send-pull-requests/. Your code contributions are welcome!
+If you'd like to add features (or bug fixes) to improve the example application, you can fork the GitHub repo and "make pull requests":https://help.github.com/articles/proposing-changes-to-your-work-with-pull-requests/. Your code contributions are welcome!
 
 h4. Clone
 
