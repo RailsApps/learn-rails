@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 ruby '2.4.1'
-gem 'rails', '~> 5.1.1'
+gem 'rails', '~> 5.1.2'
 
 # Rails defaults
 gem 'puma', '~> 3.7'
