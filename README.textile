@@ -112,6 +112,14 @@ $ git clone git://github.com/RailsApps/learn-rails.git
 
 You'll need "git":http://git-scm.com/ on your machine. See "Rails and Git":http://railsapps.github.io/rails-git.html.
 
+h4. Nitrous Quickstart
+
+If you don't want to go through the hassle of installing things on your personal machine, you can quickly create a free learn-rails development environment in the cloud on Nitrous:
+
+!{width:142px; height: 34px}https://nitrous-image-icons.s3.amazonaws.com/quickstart.png(Nitrous Quickstart)!:https://www.nitrous.io/quickstart
+
+In the IDE, start Learn Rails via @Run > Start Learn Rails@ and access your site via @Preview > 3000@.
+
 h4. Generate
 
 If you want to use the project as a starter application, use the "Rails Composer":http://railsapps.github.io/rails-composer/ tool to generate a new version of the example app. You'll be able to give it your own project name when you generate the app. Generating the application gives you additional options.
