@@ -1,3 +1,5 @@
+#This is a CI test
+
 class Visitor
   include ActiveModel::Model
   attr_accessor :email, :string
