@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 #This is a test for SSAAS
+#Will this work?
 module Signals
   module Classifiers
     class CanaryResult < ApplicationModel
